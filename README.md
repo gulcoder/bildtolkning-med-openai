@@ -16,6 +16,9 @@ Målet är att utforska hur GPT-4 Vision kan förstå och analysera olika typer 
 
 ## 📁 Struktur
 
-Eftersom övningarna följer ett liknande kodmönster, är alla exempel samlade i en enda Python-fil: `main.py`.
+- Eftersom övningarna följer ett liknande kodmönster, är alla exempel samlade i en enda Python-fil: `main.py`.
+- Uppdatera **prompten** i `main.py` beroende på vad du vill att AI:n ska göra.
+- Ingen kodförändring krävs utöver prompt och bildväg.
+
 
 
