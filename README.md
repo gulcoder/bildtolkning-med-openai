@@ -11,6 +11,8 @@ Att stegvis utforska kraften i OpenAI:s multimodala modell (GPT-4o) genom prakti
 - Analysera känslor i porträttbilder
 - Tolka skärmdumpar av kod
 
+> 💡 **Observera:** Du ansvarar själv för att välja lämpliga bilder till varje övning. Använd exempelbilder från webben eller ta egna skärmdumpar för bästa effekt.
+
 ## 📦 Innehåll
 
 ### 🔹 Övning 1 – Bildbeskrivning
@@ -47,6 +49,8 @@ Analys av uttryck i porträttbilder (obs: API-policyer kan påverka detta).
 📂 Fil: `övning5/main.py`
 
 ---
+
+
 
 ## ⚙️ Installation
 
