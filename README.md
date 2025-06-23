@@ -10,7 +10,7 @@ Målet är att utforska hur GPT-4 Vision kan förstå och analysera olika typer 
 2. **Övning2: Förklaring av kod via skärmdump**
 3. **Övning3: Upptäcka UI-fel och visuella inkonsekvenser**
 4. **Övning4: Extrahera text från t.ex. kvitton eller etiketter (OCR)**
-5. **Övning5:Identifiera känslor i porträttbilder**
+5. **Övning5: Identifiera känslor i porträttbilder**
 
 > 💡 **Observera:** Du ansvarar själv för att välja lämpliga bilder till varje övning. Använd exempelbilder från webben eller ta egna skärmdumpar för bästa effekt.
 
