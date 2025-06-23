@@ -1,60 +1,21 @@
-# 🧠 Bildtolkning med OpenAI – Multimodala AI-övningar
+# 📸 Bildtolkning med OpenAI
 
-Detta repository innehåller en samling övningar för att lära sig använda OpenAI:s GPT-4o-modell för bildanalys, textutvinning (OCR), UI-inspektion och emotionell analys. Fokus ligger på hur man med Python och OpenAI:s API kan tolka och bearbeta visuell information på ett intelligent sätt.
+Detta projekt demonstrerar hur man använder OpenAI:s GPT-4o för att tolka bilder, inklusive textigenkänning (OCR), UI-testning, känsloanalys och objektiva bildbeskrivningar. Projektet syftar till att ge praktisk erfarenhet i att kombinera multimodal AI med Python.
 
 ## 🎯 Syfte
 
-Att stegvis utforska kraften i OpenAI:s multimodala modell (GPT-4o) genom praktiska övningar:
-- Tolka innehållet i fotografier och dokument
-- Extrahera text från bilder
-- Identifiera visuella buggar i användargränssnitt
-- Analysera känslor i porträttbilder
-- Tolka skärmdumpar av kod
+Målet är att utforska hur GPT-4 Vision kan förstå och analysera olika typer av bilder via API-anrop. Övningarna täcker:
+
+1. **Objektiv beskrivning av ett foto**
+2. **Förklaring av kod via skärmdump**
+3. **Upptäcka UI-fel och visuella inkonsekvenser**
+4. **Extrahera text från t.ex. kvitton eller etiketter (OCR)**
+5. **Identifiera känslor i porträttbilder**
 
 > 💡 **Observera:** Du ansvarar själv för att välja lämpliga bilder till varje övning. Använd exempelbilder från webben eller ta egna skärmdumpar för bästa effekt.
 
-## 📦 Innehåll
+## 📁 Struktur
 
-### 🔹 Övning 1 – Bildbeskrivning
-**Prompt:** *"Vad visar bilden? Beskriv det på ett objektivt sätt."*  
-Analyserar foto och genererar en neutral sammanfattning.  
-📂 Fil: `övning1/main.py`
-
----
-
-### 🔹 Övning 2 – Kodsnapptolkning
-**Prompt:** *"Förklara vad koden i bilden gör."*  
-Analyserar en skärmdump med kod och ger begriplig förklaring.  
-📂 Fil: `övning2/main.py`
-
----
-
-### 🔹 Övning 3 – UI-testning
-**Prompt:** *"Ser du något fel eller inkonsekvens i användargränssnittet?"*  
-Identifierar visuella buggar eller designmissar i ett UI.  
-📂 Fil: `övning3/main.py`
-
----
-
-### 🔹 Övning 4 – OCR (Textutvinning)
-**Prompt:** *"Extrahera all text från denna bild. Formatera som en punktlista."*  
-Använder GPT-4 Vision för att extrahera text från bilder (t.ex. kvitton, etiketter).  
-📂 Fil: `övning4/main.py`
-
----
-
-### 🔹 Övning 5 – Emotionell ansiktsanalys
-**Prompt:** *"Vilka känslor visar personen på bilden? Beskriv ansiktsuttryck och möjliga känslotillstånd."*  
-Analys av uttryck i porträttbilder (obs: API-policyer kan påverka detta).  
-📂 Fil: `övning5/main.py`
-
----
+Eftersom övningarna följer ett liknande kodmönster, är alla exempel samlade i en enda Python-fil: `main.py`.
 
 
-
-## ⚙️ Installation
-
-1. Klona projektet:
-```bash
-git clone https://github.com/gulcoder/bildtolkning-med-openai.git
-cd bildtolkning-med-openai
